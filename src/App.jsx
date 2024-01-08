@@ -55,7 +55,7 @@ function App()
       </table>
 
 
-      <footer className=''>Created by <a href="https://dylan-mendez.vercel.app/" target='_blank' rel='noreferrer'>Dylan A. Mendez</a> | © 2024</footer>
+      <footer className='text-sm'>Created by <a href="https://dylan-mendez.vercel.app/" target='_blank' rel='noreferrer'>Dylan A. Mendez</a> | © 2024</footer>
     </>
   );
 }
