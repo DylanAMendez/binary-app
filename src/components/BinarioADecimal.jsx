@@ -8,7 +8,7 @@ const BinarioADecimal = () =>
     const [decimalInput, setDecimalInput] = useState('');
     const [binaryResult, setBinaryResult] = useState('');
 
-    // Controlar input decimal
+
     const handleDecimalChange = (event) =>
     {
         const newDecimalValue = event.target.value;
@@ -19,13 +19,13 @@ const BinarioADecimal = () =>
         setBinaryResult(binaryValue);
     };
 
-    // Controlar input binario
+
     const handleBinaryChange = (event) =>
     {
         const newBinaryValue = event.target.value
         setBinaryResult(newBinaryValue)
 
-        // valor ingresado es un número binario válido
+
         if (!/^[01]*$/.test(newBinaryValue)) {
             setDecimalInput('NaN');
             return;
