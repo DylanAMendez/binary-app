@@ -1,7 +1,7 @@
 
 import './App.css';
 
-import { Route } from 'wouter'
+import { Link, Route } from 'wouter'
 import DecimalABinario from './components/DecimalABinario';
 import BinarioADecimal from './components/BinarioADecimal';
 
@@ -16,8 +16,13 @@ function App()
       </header>
 
       <div className='flex flex-col lg:flex lg:flex-row justify-center'>
-        <a className='lg:mx-5' href="/">Decimal a Binario</a>
-        <a className='lg:mx-5' href="/binario-a-decimal">Binario a Decimal</a>
+        <Link href='/'>
+          <a className='lg:mx-5' href="/">Decimal a Binario</a>
+        </Link>
+
+        <Link href='binario-a-decimal'>
+          <a className='lg:mx-5' href="/binario-a-decimal">Binario a Decimal</a>
+        </Link>
       </div>
 
       <div>
