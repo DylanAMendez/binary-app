@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body
+{
+  background-color: #202B38;
+  color: azure ;
+}
+input {
+  box-shadow: 0 0 0 2px #0096bfab;
+  box-shadow: 0 0 0 2px var(--focus);
+}
+select:focus {
+  box-shadow: 0 0 0 2px #0096bfab;
+  box-shadow: 0 0 0 2px var(--focus);
+}
+textarea:focus {
+  box-shadow: 0 0 0 2px #0096bfab;
+  box-shadow: 0 0 0 2px var(--focus);
+}
+a {
+  text-decoration: none;
+  color: #0076d1;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1
+{
+  border-bottom: rgba(255, 255, 255, 0.164) 1px solid;
+}
