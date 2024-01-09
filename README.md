@@ -33,9 +33,9 @@ Binary App es una aplicación web desarrollada con React que facilita la convers
 
 ## Contacto
 
-- Autor: [Dylan A. Mendez]
-- Correo Electrónico: [dylanmendezdev@gmail.com]
-- GitHub: [@DylanAMendez](https://github.com/DylanAMendez)
+- Autor: Dylan A. Mendez
+- Correo Electrónico: dylanmendezdev@gmail.com
+- GitHub: @DylanAMendez (https://github.com/DylanAMendez)
 
 ## Licencia
 
