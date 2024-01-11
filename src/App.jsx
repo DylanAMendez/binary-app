@@ -5,6 +5,12 @@ import { Link, Route } from 'wouter'
 import DecimalABinario from './components/DecimalABinario';
 import BinarioADecimal from './components/BinarioADecimal';
 
+import githubImage from './assets/github.png'
+import linkedinImage from './assets/linkedin.png'
+import mailImage from './assets/mail.png'
+import websiteImage from './assets/website.png'
+
+
 function App()
 {
 
@@ -55,7 +61,57 @@ function App()
       </table>
 
 
-      <footer className='text-sm'>Created by <a href="https://dylan-mendez.vercel.app/" target='_blank' rel='noreferrer'>Dylan A. Mendez</a> | © 2024</footer>
+      <footer className=''>
+
+        <div className='flex flex-row gap-7 lg:gap-20 justify-center'>
+
+          <a href="https://github.com/DylanAMendez" rel='noreferrer' target="_blank">
+            <img
+              src={githubImage}
+              alt="GitHub Logo"
+              title="GitHub"
+              className='w-11'
+            >
+            </img>
+          </a>
+
+
+          <a href="mailto:dylanmendezdev@gmail.com?subject=¡Trabajemos Juntos!" rel='noreferrer' target="_blank">
+            <img
+              src={mailImage}
+              alt="GitHub Logo"
+              title="GitHub"
+              className='w-11'
+            >
+            </img>
+          </a>
+
+          <a href="https://dylan-mendez.vercel.app" rel='noreferrer' target="_blank">
+            <img
+              src={websiteImage}
+              alt="Website Logo"
+              title="Website"
+              className='w-11'
+            >
+            </img>
+          </a>
+
+          <a href="https://www.linkedin.com/in/dylanmendez/" rel='noreferrer' target="_blank">
+            <img
+              src={linkedinImage}
+              alt="LinkedIn Logo"
+              title="LinkedIn"
+              className='w-11'
+            >
+
+            </img>
+          </a>
+
+        </div>
+
+
+
+      </footer>
     </>
   );
 }
